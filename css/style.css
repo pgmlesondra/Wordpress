@@ -1,0 +1,17 @@
+/**
+* Retina Media Queries 
+* -----------------------------------------------------------------------------
+*/
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    .header-1 .title-area .main-logo {
+        background: url('../images/logo@2x.png') no-repeat;
+        display: block;
+        width: 227px;
+        height: 57px;
+        background-size: cover;
+        margin: 0 auto;
+    }
+}
